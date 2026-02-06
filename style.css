@@ -102,4 +102,48 @@ h3 {
   color: #38bdf8;
   text-decoration: none;
 }
+.navbar{
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  padding: 14px 10%;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  z-index: 1000;
+}
+
+.nav-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  font-weight: 700;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.nav-links a{
+  margin-left: 18px;
+  text-decoration: none;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.nav-links a:hover{
+  text-decoration: underline;
+}
+
+.project-link{
+  display: inline-block;
+  margin-top: 10px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-link:hover{
+  text-decoration: underline;
+}
 
